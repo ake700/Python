@@ -35,7 +35,6 @@ while not end_of_game:
     letter = chosen_word[letter_position]
     if letter == guess:
       display[letter_position] = letter
-    #Can't print no match here b/c it loops through the guesses
   print(display)
   if guess not in chosen_word:
     print(f"You guessed {guess}, that's not in the word. You lose a life.")
