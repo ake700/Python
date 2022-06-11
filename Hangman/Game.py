@@ -42,7 +42,7 @@ while not end_of_game:
     if lives == 0:
       end_of_game = True
       print("You lose")
-  if "_" not in display: #if blank in list is no longer true:
+  if "_" not in display: 
     end_of_game = True
     print("You win")
   print(f"You have {stages[lives]} lives remaining.")
