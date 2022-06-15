@@ -3,6 +3,7 @@ library(RColorBrewer)
 library(wordcloud2)
 library(tm)
 library(dplyr)
+
 job <- "jobs.txt"
 text <- readLines(job)
 docs <- Corpus(VectorSource(text))
