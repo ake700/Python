@@ -4,8 +4,7 @@ library(wordcloud2)
 library(tm)
 library(dplyr)
 
-job <- "jobs.txt"
-text <- readLines(job)
+text <- readLines("filename.txt")
 docs <- Corpus(VectorSource(text))
 inspect(docs)
 
