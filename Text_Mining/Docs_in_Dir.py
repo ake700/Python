@@ -12,10 +12,11 @@ files = os.listdir(".")
 print(files)
 
 #For single file checks
+'''Check filetype for a document'''
 document = Document("docName.docx")
 type(document)
 document.paragraphs
-#Output will be along the lines of [<docx.text.paragraph.Paragraph object at 0x0000028A60C239D0>, <docx.text.paragraph.Paragraph object at 0x0000028A60C23460>
+#Output will be along the lines of [<docx.text.paragraph.Paragraph object at 0x0000028A60C239D0>
 
 #Create loop to create human readable paragraphs from the document that is used in the function after
 index = 0 
@@ -26,8 +27,8 @@ for para in document.paragraphs:
       print(para.text)
 #Output will be - paragraph 1 is ""
       
-#Create function to put text within a dictionary where the paragraph is a key and the text is a value 
 def doc_to_dict(fileName):
+'''Create function to put text within a dictionary where the paragraph is a key and the text is a value'''
   docx_content = {} 
   document = Document(fileName)
   index = 0
