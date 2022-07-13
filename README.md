@@ -1,2 +1,5 @@
 # Python
-Python projects adapted from Udemy's Python Bootcamp course as written in Replit and other projects related to data science.
+
+This repository contains two folders: 
+* 1. Projects adapted from UDemy Python Bootcamp course
+* 2. Self-directed data science and machine learning projects
