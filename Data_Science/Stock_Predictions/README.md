@@ -14,3 +14,4 @@ This project is meant to:
 
 1) Identify other factors besides stocks that relate to price movements (e.g., news sentiment, dividends, split)
 2) Improve on prediction model for future prices based on historical data. One example may be to use a smaller subset of data (e.g., 3 weeks instead of 3 months)
+3) Evaluate the performance of the model using other evaluation metrics 
