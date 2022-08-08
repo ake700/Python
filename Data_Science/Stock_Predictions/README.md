@@ -7,7 +7,7 @@ This project is meant to:
 
 ## Results
 
-1) The machine learning model identified which stocks (e.g., ROKU, SNAP) seem to have an impact in NIO's price movements
+1) The machine learning model identified which stocks (e.g., ROKU, SNAP) seem to have an impact on NIO's price movements
 2) The model can somewhat predict future prices, but could be improved when compared to the actual closing prices of a certain trading day
 
 ## Next steps
